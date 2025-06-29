@@ -34,6 +34,7 @@ It reflects:
 
 ---
 ## 📂 Expected Folder Structure
+
 selenium-automation-java/
 ├── Section01_Selenium_Introduction/
 ├── Section02_Install_Java_and_Selenium_Basics/
@@ -75,6 +76,7 @@ selenium-automation-java/
 ├── Section38_Core_Java_Tutorial_Part2/
 ├── Section39_Core_Java_Tutorial_Part3_CollectionsAPI/
 └── Section40_Bonus_Lecture/
+
 
 ## 🚧 Disclaimer
 - This is a **learning repository only**.  
