@@ -19,7 +19,7 @@ public class A23_WindoeHandelConcept {
 		Set<String> windows = driver.getWindowHandles(); //[parentid ;;  childid]
 		
 		
-		Iterator<String> it=windows.iterator();   
+		Iterator<String> it=windows.iterator();    //importantline
 		String Parentid = it.next();  // from outside to parent
 		String Childid = it.next();  //  from cparent to child
 		
@@ -27,7 +27,30 @@ public class A23_WindoeHandelConcept {
 		driver.switchTo().window(Childid);
 		
 		System.out.println(driver.findElement(By.cssSelector(".im-para.red")).getText());
+		
+		
+		String Email =driver.findElement(By.cssSelector(".im-para.red")).getText().split("at")[1].trim().split(" ")[0];
+		
+		driver.switchTo().window(Parentid);
+		
+		driver.findElement(By.id("username")).sendKeys(Email);
+		
+		
 		driver.quit();
+		/*
+		//Practice
+		Set<String> windowss =driver.getWindowHandles();
+		Iterator<String> itt = windowss.iterator();
+		
+		String 1st =itt.next();
+		String 2nd =itt.next();
+		
+		driver.switchTo().window(1st);
+		
+		*/
+		
+		
+		
 	}
 
 }
