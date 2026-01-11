@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Days"> <!--name can be anything-->
+
+  <test name="CarLoan">
+   <packages>
+   <package name="demo"></package> <!-- Package run all classes inside it-->
+   </packages>
+  </test>
+
+</suite> <!-- Suite -->

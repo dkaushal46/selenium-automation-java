@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Fail"> <!--name can be anything-->
+
+<listeners><listener class-name="demo.Listener"/></listeners>
+
+
+  <test name="Regression">
+  <classes>
+  <class name="demo.A05_FailedListener"></class></classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
