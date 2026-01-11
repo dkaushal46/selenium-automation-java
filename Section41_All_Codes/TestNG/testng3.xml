@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Days"> <!--name can be anything-->
+
+  <test name="Regression">
+  
+  <groups>
+  <run>
+  <include name="Smoke"></include> <!-- Smoke tag--><!-- include or exclude can be used-->
+  </run>
+  </groups>
+  
+  
+    <classes>
+    
+      <class name="demo.A01_Day01"/>
+      <class name="demo.A02_Day02"/>
+      <class name="demo.A03_Day03"/>
+      <class name="demo.A04_Day04"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
