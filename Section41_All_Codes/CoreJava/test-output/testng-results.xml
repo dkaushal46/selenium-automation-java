@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-06T23:51:01 IST" name="Default suite" finished-at="2026-01-06T23:51:01 IST" duration-ms="141">
+    <groups>
+    </groups>
+    <test started-at="2026-01-06T23:51:01 IST" name="Default test" finished-at="2026-01-06T23:51:01 IST" duration-ms="141">
+      <class name="demo.A02_ChildClass">
+        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:demo.A02_ChildClass@49ec71f8]" started-at="2026-01-06T23:51:01 IST" name="BeforeRun" finished-at="2026-01-06T23:51:01 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeRun -->
+        <test-method signature="Try()[pri:0, instance:demo.A02_ChildClass@49ec71f8]" started-at="2026-01-06T23:51:01 IST" name="Try" finished-at="2026-01-06T23:51:01 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Try -->
+        <test-method is-config="true" signature="AfterRun()[pri:0, instance:demo.A02_ChildClass@49ec71f8]" started-at="2026-01-06T23:51:01 IST" name="AfterRun" finished-at="2026-01-06T23:51:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterRun -->
+        <test-method is-config="true" signature="BeforeRun()[pri:0, instance:demo.A02_ChildClass@49ec71f8]" started-at="2026-01-06T23:51:01 IST" name="BeforeRun" finished-at="2026-01-06T23:51:01 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeRun -->
+        <test-method signature="testRun()[pri:0, instance:demo.A02_ChildClass@49ec71f8]" started-at="2026-01-06T23:51:01 IST" name="testRun" finished-at="2026-01-06T23:51:01 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRun -->
+        <test-method is-config="true" signature="AfterRun()[pri:0, instance:demo.A02_ChildClass@49ec71f8]" started-at="2026-01-06T23:51:01 IST" name="AfterRun" finished-at="2026-01-06T23:51:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterRun -->
+      </class> <!-- demo.A02_ChildClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
